@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MenuListWidget">
+        <attr name="titleText" format="string" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="iconDrawableSize" format="dimension" />
+        <attr name="startIconDrawable" format="reference" />
+        <attr name="startIconVisibility" format="boolean" />
+        <attr name="enableEditText" format="boolean" />
+        <attr name="enableEditInput" format="boolean" />
+        <attr name="setEditContent" format="string" />
+        <attr name="setEditHint" format="string" />
+        <attr name="editContentGravity" >
+            <flag name="left" value="0x13" />
+            <flag name="center" value="0x11" />
+            <flag name="right" value="0x15" />
+        </attr>
+        <attr name="endIconDrawable" format="reference" />
+        <attr name="endIconVisibility" format="boolean" />
+        <attr name="dividerVisibility" format="boolean" />
+        <attr name="dividerColor" format="color" />
+    </declare-styleable>
+</resources>

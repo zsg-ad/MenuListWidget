@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <!-- 自定义菜单列表组合控件布局 -->
+
+    <ImageView
+            android:id="@+id/img_list_item_icon"
+            android:layout_centerVertical="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            tools:ignore="ContentDescription"/>
+
+    <TextView
+            android:id="@+id/text_list_item_title"
+            android:layout_toEndOf="@id/img_list_item_icon"
+            android:layout_marginStart="24px"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:ignore="PxUsage,RelativeOverlap"/>
+    
+    <androidx.appcompat.widget.AppCompatEditText
+            android:visibility="gone"
+            android:id="@+id/edit_list_item_content"
+            android:layout_toEndOf="@id/text_list_item_title"
+            android:layout_toStartOf="@id/img_list_item_end"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:background="@color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    <ImageView
+            android:id="@+id/img_list_item_end"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            tools:ignore="ContentDescription"/>
+
+    <View
+            android:id="@+id/view_list_item_divider"
+            android:background="#808080"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+
+</RelativeLayout>
