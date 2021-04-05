@@ -8,7 +8,6 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -126,7 +125,7 @@ public class MenuListWidget extends RelativeLayout {
         titleText = array.getString(R.styleable.MenuListWidget_titleText);
         titleTextSize = array.getDimension(R.styleable.MenuListWidget_titleTextSize,15 * dm.density);
         titleTextColor = array.getColor(R.styleable.MenuListWidget_titleTextColor, Color.BLACK);
-        iconDrawableSize = array.getDimension(R.styleable.MenuListWidget_iconDrawableSize,25f);
+        iconDrawableSize = array.getDimension(R.styleable.MenuListWidget_iconDrawableSize,25 * dm.density);
         startIconDrawable = array.getResourceId(R.styleable.MenuListWidget_startIconDrawable,0);
         startIconVisibility = array.getBoolean(R.styleable.MenuListWidget_startIconVisibility,true);
         enableEditText = array.getBoolean(R.styleable.MenuListWidget_enableEditText,false);
@@ -280,7 +279,6 @@ public class MenuListWidget extends RelativeLayout {
 
 
     private void setTitleSettings() {
-        Log.e("titleTextSize"," = " + titleTextSize);
         title.setTextSize(TypedValue.COMPLEX_UNIT_PX,titleTextSize);
         title.setTextColor(titleTextColor);
     }
