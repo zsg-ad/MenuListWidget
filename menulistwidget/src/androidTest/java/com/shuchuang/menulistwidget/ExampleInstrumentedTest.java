@@ -20,6 +20,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.shuchuang.library.test", appContext.getPackageName());
+        assertEquals("com.shuchuang.menulistwidget.test", appContext.getPackageName());
     }
 }
