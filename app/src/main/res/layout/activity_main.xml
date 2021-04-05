@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-    <com.shuchuang.library.MenuListWidget
+    <com.shuchuang.menulistwidget.MenuListWidget
             app:titleText="菜单列表风格"
             app:titleTextSize="16sp"
             app:titleTextColor="@color/colorPrimary"
@@ -23,7 +23,7 @@
             android:layout_height="50dp"
             tools:ignore="MissingConstraints"/>
 
-    <com.shuchuang.library.MenuListWidget
+    <com.shuchuang.menulistwidget.MenuListWidget
             app:titleText="输入框风格"
             app:enableEditInput="true"
             app:enableEditText="true"

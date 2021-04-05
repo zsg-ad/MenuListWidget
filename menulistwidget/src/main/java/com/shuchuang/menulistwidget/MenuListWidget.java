@@ -1,4 +1,4 @@
-package com.shuchuang.library;
+package com.shuchuang.menulistwidget;
 
 import android.content.Context;
 import android.content.res.TypedArray;

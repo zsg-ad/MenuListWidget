@@ -1,4 +1,4 @@
-package com.shuchuang.library;
+package com.shuchuang.menulistwidget;
 
 import org.junit.Test;
 

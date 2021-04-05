@@ -1,4 +1,4 @@
-package com.shuchuang.library;
+package com.shuchuang.menulistwidget;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
