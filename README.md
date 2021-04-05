@@ -21,7 +21,7 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-    implementation 'com.gitee.zhou-sg:MenuListWidget:1.1.1'
+    implementation 'com.gitee.zhou-sg:MenuListWidget:1.1.2'
 }
 ```
 
